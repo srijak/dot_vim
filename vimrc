@@ -37,6 +37,7 @@ Bundle 'scrooloose/nerdtree'
 Bundle 'Rykka/ColorV'
 Bundle 'nanotech/jellybeans.vim'
 Bundle 'tomtom/quickfixsigns_vim'
+Bundle 'Tagbar'
 " Commands
 Bundle 'scrooloose/nerdcommenter'
 Bundle 'tpope/vim-surround'
@@ -46,6 +47,7 @@ Bundle 'godlygeek/tabular'
 Bundle 'mileszs/ack.vim'
 Bundle 'gmarik/sudo-gui.vim'
 Bundle 'milkypostman/vim-togglelist'
+Bundle 'ctags.vim'
 " Automatic Helpers
 Bundle 'IndexedSearch'
 Bundle 'xolox/vim-session'
@@ -55,9 +57,11 @@ Bundle 'ervandew/supertab'
 Bundle 'gregsexton/MatchTag'
 Bundle 'Shougo/neocomplcache'
 " Language Additions
+" C
+Bundle "cscope_plus.vim"
+Bundle 'code_complete-new-update'
 "   Ruby
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'tpope/vim-haml'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-rake'
 "   JavaScript
@@ -67,7 +71,6 @@ Bundle 'leshill/vim-json'
 Bundle 'itspriddle/vim-jquery'
 "   Other Languages
 Bundle 'msanders/cocoa.vim'
-Bundle 'mutewinter/taskpaper.vim'
 Bundle 'mutewinter/nginx.vim'
 Bundle 'timcharper/textile.vim'
 Bundle 'ChrisYip/Better-CSS-Syntax-for-Vim'
